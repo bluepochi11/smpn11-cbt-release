@@ -1,17 +1,19 @@
-# SMPN 11 CBT — Rilis Resmi Aplikasi Siswa
+# SMPN 11 CBT — Rilis APK Resmi Siswa
 
-Distribusi resmi berkas APK aplikasi ujian **SMP Negeri 11 Singkawang Timur**.
+Repositori publik ini **hanya** menyediakan berkas instalasi APK resmi **SMP Negeri 11 Singkawang Timur**.
 
-## Unduh Versi Terbaru (`v2.2.0`)
+## Versi Terbaru: `v2.3.0` (`versionCode 49`)
 
-Buka halaman **[Releases](https://github.com/bluepochi11/smpn11-cbt-release/releases/latest)** untuk mengunduh berkas APK resmi:
+- **Unduh APK Universal (Direkomendasikan):**
+  [SMPN11-CBT-Siswa-v2.3.0.apk](https://github.com/bluepochi11/smpn11-cbt-release/releases/download/v2.3.0/SMPN11-CBT-Siswa-v2.3.0.apk)
+- **Halaman Rilis Lengkap:**
+  https://github.com/bluepochi11/smpn11-cbt-release/releases/latest
+- **SHA-256 APK Universal:** `52a19a5c0a2ad6f066b72031c79af5586a690c9f2b82d7d8bd44106c5c227881`
+- **SHA-256 Sertifikat Keystore Resmi:** `0915d5f5693a947e6d2c6fb61fcf0eb0bdcc390d517b4e8beefb6c92b4383b45`
 
-- **`SMPN11-CBT-Siswa-v2.2.0.apk`** — Rekomendasi utama (**Universal**, cocok untuk seluruh HP Android siswa).
-- **`SMPN11-CBT-Siswa-v2.2.0-arm64-v8a.apk`** — Varian khusus Android 64-bit.
-- **`SMPN11-CBT-Siswa-v2.2.0-armeabi-v7a.apk`** — Varian khusus Android 32-bit.
-
-## Pembaruan Otomatis & Verifikasi Keaslian
-- Mulai versi **v2.2.0 (`build #48`)**, pembaruan versi berikutnya dapat diunduh dan dipasang **otomatis langsung dari dalam aplikasi**.
-- Versi lama di bawah ketentuan server otomatis ditolak saat login dan ujian.
-- Sertifikat penandatanganan resmi (SHA-256): `0915d5f5693a947e6d2c6fb61fcf0eb0bdcc390d517b4e8beefb6c92b4383b45`.
-- SHA-256 berkas `SMPN11-CBT-Siswa-v2.2.0.apk`: `8bf3ed4f62e451606f01524e8130da02e92f4d2e1f53bb32cb6bc463d2321d46`.
+## Pembaruan Utama v2.3.0
+- Always-Alive Watchdog Service (`START_STICKY` + `PARTIAL_WAKE_LOCK` + anti-swipe Recents)
+- Perisai Tombol Power & Anti-Sleep (layar dipaksa menyala kembali + alarm peringatan)
+- Anti-Menu Matikan Daya & deteksi forensik reboot / force-stop (otomatis kunci sesi di server)
+- Dukungan Mode Kiosk Penuh (`Device Owner`) untuk perangkat inventaris sekolah
+- Penegakan versi wajib di sisi server + pembaruan otomatis dalam aplikasi
